@@ -3,7 +3,7 @@
 module sum4b_TB;
 
   // Inputs
-  reg [3:0] xi;
+  reg [3:0] xi; //Almacena 4 bits
   reg [3:0] yi;
 
   // Outputs
@@ -21,10 +21,10 @@ module sum4b_TB;
   initial begin
   // Initialize Inputs
     xi=0;
-	 for (yi = 0; yi < 16; yi = yi + 1) begin
-      if (yi==0)
-        xi=xi+1;
-      #5 $display("el valor de %d + %d = %d", xi,yi,zi) ;
+  for (yi = 0; yi < 16; yi = yi + 1) begin //Loop
+	if (yi==0)
+	xi=xi+1;
+	 #5 $display("el valor de %d + %d = %d", xi,yi,zi) ;//Imprime entradas y salida en decimal con un ciclo de reloj
     end
   end      
 
