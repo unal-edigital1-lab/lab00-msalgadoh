@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dG:/Github/lab00-msalgadoh/lab_quartus/simulation/modelsim
 vsum1bcc
-Z1 !s110 1600838283
+Z1 !s110 1600876313
 !i10b 1
 !s100 kbd>86O=0<2:dcRSLWeg_0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1600838283.000000
+Z5 !s108 1600876313.000000
 !s107 G:/Github/lab00-msalgadoh/src/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Github/lab00-msalgadoh/src|G:/Github/lab00-msalgadoh/src/sum1bcc.v|
 !i113 1
@@ -58,14 +58,14 @@ R6
 Z8 !s92 -vlog01compat -work work +incdir+G:/Github/lab00-msalgadoh/lab_quartus
 R7
 vsum4b_tb
-!s110 1600838284
+!s110 1600876314
 !i10b 1
-!s100 WBJ?OGV=J98SV<2LZ5E7R2
+!s100 c0WFUFjC71]T@6BgEfW^F1
 R2
-IRbah[bQRX>`ijg5`T:4<L3
+I[TE9dX2;4<>SmcHX[OfQ23
 R3
 R0
-w1600838069
+w1600876281
 8G:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v
 FG:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v
 !i122 2
@@ -74,7 +74,7 @@ R4
 r1
 !s85 0
 31
-R5
+!s108 1600876314.000000
 !s107 G:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Github/lab00-msalgadoh/lab_quartus|G:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v|
 !i113 1

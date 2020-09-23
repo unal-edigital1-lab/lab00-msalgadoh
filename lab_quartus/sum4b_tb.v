@@ -29,7 +29,7 @@ module sum4b_tb;
 initial begin: TEST_CASE
      $dumpfile("sum4b_tb.vcd");
      $dumpvars(-1, uut);
-     #(1280) $finish;
+     #(1250) $finish;
    end
 
 endmodule 
