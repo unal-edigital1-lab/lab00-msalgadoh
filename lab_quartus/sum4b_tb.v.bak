@@ -1,0 +1,35 @@
+`timescale  1ns / 1ps
+
+module sum4b_tb;
+
+	//Registros que almacenan entradas
+	reg [3:0] Ai; 
+	reg [3:0] Bi;
+	
+	//Conectores
+	wire co;
+	wire [3:0] zi;
+
+  //Funcion para instanciar el sumador 4 bits
+  sum4b uut (.Ai(Ai), .Bi(Bi), .co(co), .zi(zi));
+
+  initial begin
+    xi=0;
+	 //Loop para recorrer todas las opciones
+		for (yi = 0; yi < 16; yi = yi + 1) begin 
+			if (yi==0)
+			xi=xi+1;
+			
+	//Imprime entradas y salida en decimal cada 8 ciclos de reloj
+	 #8 $display("el valor de %d + %d = %d", xi,yi,zi) ;
+		end
+  end      
+
+
+initial begin: TEST_CASE
+     $dumpfile("sum4b_TB.vcd");
+     $dumpvars(-1, uut);
+     #(1280) $finish;
+   end
+
+endmodule 

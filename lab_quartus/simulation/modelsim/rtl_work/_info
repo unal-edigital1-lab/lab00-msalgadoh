@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/Github/lab00-msalgadoh/lab_quartus/simulation/modelsim
+vsum1bcc
+Z1 !s110 1600838283
+!i10b 1
+!s100 kbd>86O=0<2:dcRSLWeg_0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IgDC2@J;^L7:bCF9MJJAUP1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599670237
+8G:/Github/lab00-msalgadoh/src/sum1bcc.v
+FG:/Github/lab00-msalgadoh/src/sum1bcc.v
+!i122 0
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1600838283.000000
+!s107 G:/Github/lab00-msalgadoh/src/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Github/lab00-msalgadoh/src|G:/Github/lab00-msalgadoh/src/sum1bcc.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+G:/Github/lab00-msalgadoh/src
+Z7 tCvgOpt 0
+vsum4b
+R1
+!i10b 1
+!s100 zAgMj2]bhKz0JD5ohJJed0
+R2
+IKEzIYW16YG^5Q2i]5dB_U3
+R3
+R0
+w1600836162
+8G:/Github/lab00-msalgadoh/lab_quartus/sum4b.v
+FG:/Github/lab00-msalgadoh/lab_quartus/sum4b.v
+!i122 1
+L0 1 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 G:/Github/lab00-msalgadoh/lab_quartus/sum4b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Github/lab00-msalgadoh/lab_quartus|G:/Github/lab00-msalgadoh/lab_quartus/sum4b.v|
+!i113 1
+R6
+Z8 !s92 -vlog01compat -work work +incdir+G:/Github/lab00-msalgadoh/lab_quartus
+R7
+vsum4b_tb
+!s110 1600838284
+!i10b 1
+!s100 WBJ?OGV=J98SV<2LZ5E7R2
+R2
+IRbah[bQRX>`ijg5`T:4<L3
+R3
+R0
+w1600838069
+8G:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v
+FG:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v
+!i122 2
+L0 3 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 G:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Github/lab00-msalgadoh/lab_quartus|G:/Github/lab00-msalgadoh/lab_quartus/sum4b_tb.v|
+!i113 1
+R6
+R8
+R7
